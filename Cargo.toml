@@ -7,5 +7,5 @@ edition = "2018"
 
 [dependencies]
 num-bigint = "0.4.0"
-oeis-utils = "0.2.1"
+oeis-utils = "0.3.0"
 structopt = "0.3.25"

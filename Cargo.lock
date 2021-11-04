@@ -135,9 +135,9 @@ dependencies = [
 
 [[package]]
 name = "oeis-utils"
-version = "0.2.1"
+version = "0.3.0"
 source = "registry+https://github.com/rust-lang/crates.io-index"
-checksum = "4f0a2d46c6591425b2975e34c438f1ec0c8fbff95fc2965298d99fe721c0322f"
+checksum = "6ff4997a1e5113bf07819bd8da86cde20b5d21d4412a53a5be10a8b5b1808bc9"
 dependencies = [
  "lazy_static",
  "num-bigint",
