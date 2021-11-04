@@ -90,9 +90,9 @@ checksum = "a60553f9a9e039a333b4e9b20573b9e9b9c0bb3a11e201ccc48ef4283456d673"
 
 [[package]]
 name = "memchr"
-version = "2.4.0"
+version = "2.4.1"
 source = "registry+https://github.com/rust-lang/crates.io-index"
-checksum = "b16bd47d9e329435e309c58469fe0791c2d0d1ba96ec0954152a5ae2b04387dc"
+checksum = "308cc39be01b73d0d18f82a0e7b2a3df85245f84af96fdddc5d202d27e47b86a"
 
 [[package]]
 name = "num-bigint"
@@ -135,9 +135,9 @@ dependencies = [
 
 [[package]]
 name = "oeis-utils"
-version = "0.3.0"
+version = "0.3.2"
 source = "registry+https://github.com/rust-lang/crates.io-index"
-checksum = "6ff4997a1e5113bf07819bd8da86cde20b5d21d4412a53a5be10a8b5b1808bc9"
+checksum = "568e25ff2e6541a4443f3cb4c30c8d0f8f45d5252f9ac90553a42094c806e355"
 dependencies = [
  "lazy_static",
  "num-bigint",
