@@ -3,7 +3,7 @@ N=0
 while true
 do
 	echo -n "$N: "
-	RES=$(rg --count --max-count 1 ,$N, stripped)
+	RES=$(rg --count --max-count 1 ,$N, $1)
 	echo -n $RES
 	if [[ "$RES" -eq "0" ]]
 	then
