@@ -1,7 +1,6 @@
 use std::{collections::HashSet, path::PathBuf};
 
-use num_bigint::{BigInt, Sign, ToBigInt};
-use oeis_utils::{NumberValue};
+use oeis_utils::NumberValue;
 use structopt::StructOpt;
 
 #[derive(Debug, StructOpt)]
@@ -22,9 +21,7 @@ fn main() {
             NumberValue::OutOfRange(_) => None, // If we don't fit in a i128 we are not going to be the smallest number
         })
         .collect();
-    let res = (0_i128..)
-        .find(|e| !all_nums.contains(e))
-        .unwrap();
+    let res = (0_i128..).find(|e| !all_nums.contains(e)).unwrap();
 
     println!("{} not found!", res);
 }
