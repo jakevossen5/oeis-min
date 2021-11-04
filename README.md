@@ -9,11 +9,10 @@ Most of the work for this project is implemented in [oeis-utils](https://github.
 First, download and extract a copy of the OEIS database from [https://oeis.org/stripped.gz](https://oeis.org/stripped.gz)
 
 ```bash
-
 git clone git@github.com:jakevossen5/oeis-min.git
 cd oeis-min
 cargo run --release -- path/to/stripped
 ```
 
 You can also check the work with the bash script by running `./oeis-min.sh /path/to/stripped`.
-This depends on [ripgrep](https://github.com/BurntSushi/ripgrep) being in your `$PATH`
+This depends on [ripgrep](https://github.com/BurntSushi/ripgrep) being in your `$PATH`.
